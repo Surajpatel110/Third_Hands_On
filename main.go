@@ -30,24 +30,3 @@ func main() {
 	// Start server
 	r.Run(":8081")
 }
-
-// package main
-
-// import (
-// 	"go-restful-app/middleware"
-
-// 	"github.com/gin-gonic/gin"
-// )
-
-// func main() {
-// 	r := gin.Default()
-
-// 	// Apply middleware
-// 	r.Use(middleware.RequestLogger())
-
-// 	// Initialize routes
-// 	handler.RegisterRoutes(r)
-
-// 	// Start server
-// 	r.Run(":8080")
-// }
